@@ -1,0 +1,8 @@
+name: Greet the user
+on: push
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+    - run: echo "Hello $GITHUB_ACTOR you created a pull request"
