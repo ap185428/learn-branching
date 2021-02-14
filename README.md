@@ -25,3 +25,10 @@ merged pull request from branch1 ---> changes got merged easily <br>
 <br>
 created new file lets say file2 in branch2 <br>
 created pull request from branch2 ---> got no merge conflicts and pull request got merged
+
+### part - 3
+tested workflow from branches instead of main branch
+
+created a branch named patch-1 and made a workflow file in it 
+which had on : pull
+commited changes to branch patch-1 ---> workflow ran successfully
