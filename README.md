@@ -34,3 +34,5 @@ The workflow file has to be present in that location for that event to get trigg
 Next made a commit in branch patch1 which had the event on : branch : main, this workflow got triggered. 
 
 Created another branch patch-2 and made a pull request to path-1. The workflow on: branch: master did not get triggered.
+
+Made a pull request from patch-1 to patch-2. Accepted the pull request. Workflow ran.
