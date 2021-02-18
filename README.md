@@ -31,4 +31,6 @@ This branch i.e Feature branch will try to make a pull request to main branch an
 The event which had on : branch : main did not get triggered.
 The workflow file has to be present in that location for that event to get triggered.
 
-Next made a commit in branch patch1 which had the event on : branch : main, this workflow got triggered.
+Next made a commit in branch patch1 which had the event on : branch : main, this workflow got triggered. 
+
+Created another branch patch-2 and made a pull request to path-1. The workflow on: branch: master did not get triggered.
