@@ -1,0 +1,15 @@
+name: Trigger only when main branch has push or pull_request
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  job1:
+    name: Tell that event has been triggered for the main branch
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "You created some event for the main branch"
