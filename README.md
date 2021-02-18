@@ -27,8 +27,4 @@ created new file lets say file2 in branch2 <br>
 created pull request from branch2 ---> got no merge conflicts and pull request got merged
 
 ### part - 3
-tested workflow from branches instead of main branch
-
-created a branch named patch-1 and made a workflow file in it 
-which had on : pull
-commited changes to branch patch-1 ---> workflow ran successfully
+This branch i.e Feature branch will try to make a pull request to main branch and see if the event which has been specified in patch branch gets triggered or not.
