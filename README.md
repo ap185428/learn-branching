@@ -28,3 +28,7 @@ created pull request from branch2 ---> got no merge conflicts and pull request g
 
 ### part - 3
 This branch i.e Feature branch will try to make a pull request to main branch and see if the event which has been specified in patch branch gets triggered or not.
+The event which had on : branch : main did not get triggered.
+The workflow file has to be present in that location for that event to get triggered.
+
+Next made a commit in branch patch1 which had the event on : branch : main, this workflow got triggered.
