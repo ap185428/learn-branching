@@ -12,4 +12,4 @@ jobs:
     name: Tell that event has been triggered for the main branch
     runs-on: ubuntu-latest
     steps:
-      - run: echo "You created some event for the main branch"
+      - run: echo "You created some event for the main branch patch-2 branch"
